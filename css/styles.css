@@ -341,12 +341,11 @@ img {
 
   display: flex;
   justify-content: center;
-  gap: 24px;
   flex-wrap: wrap;
 }
 
-.filter-btn-item {
-  flex-basis: calc(100% - 96px) / 5;
+.filter-btn-item:not(:last-child) {
+  margin-right: 24px;
 }
 
 .secondary-btn {
